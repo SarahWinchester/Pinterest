@@ -1,0 +1,25 @@
+body{
+  box-sizing: border-box;
+}
+header{
+  background-color: #930a81;
+}
+header>*{
+  display: inline-block;
+  text-align: center;
+}
+header > h1{
+  width: 5%
+}
+header > form{
+  width: 70%
+}
+header > navbar{
+  width: 20%
+}
+.col{
+  display: inline-block;
+  float: left;
+  margin: 6em;
+  width: 3vw;
+}
