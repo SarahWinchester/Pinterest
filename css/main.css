@@ -1,25 +1,61 @@
-body{
+body {
   box-sizing: border-box;
 }
-header{
-  background-color: #930a81;
+header {
+  background-color: white;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-color: #d9d9d9;
+  border-width: .1vw;
+
 }
-header>*{
+
+header>* {
   display: inline-block;
   text-align: center;
 }
-header > h1{
-  width: 5%
+
+header>h1 {
+  width: 3%;
+  height: 3;
+  font-size: 50px;
+  border: 1px solid black;
 }
-header > form{
-  width: 70%
+
+
+header>form {
+  width: 70%;
 }
-header > navbar{
-  width: 20%
+
+header>nav {
+  width: 20%;
 }
-.col{
-  display: inline-block;
+
+.imagen {
+  width: 15vw;
+  border-radius: 5%;
+}
+
+.col {
   float: left;
-  margin: 6em;
-  width: 3vw;
+  left: 2em;
+  width: 19%;
+}
+
+select {
+  border: none;
+  background-color: #ececec;
+}
+
+#search-input {
+  background-color: #ececec;
+  border-radius: 3%;
+  border: none;
+  height: 10vh;
+  width: 50vw;
+}
+
+.bar {
+  padding: 10px;
+  color: #000000;
 }
