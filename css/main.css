@@ -1,88 +1,94 @@
-
 .bar {
-  padding: 10px;
   color: #000000;
+  padding: 10px;
 }
+
 body {
   box-sizing: border-box;
 }
-body>div{
+
+body>div {
   margin-left: 25px;
 }
-.button{
-   color: white;
-   border: none;
-   border-radius: 6px;
-   font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
-   font-weight: bold;
-   font-size: 1em;
-   padding: 10px;
-   margin: 1px;
 
+.button {
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+  margin: 1px;
+  padding: 10px;
 }
 
-.color1{
+.color1 {
   background-color: #165a6c;
 }
-.color2{
+
+.color2 {
   background-color: #653e16;
 }
-.color3{
+
+.color3 {
   background-color: #292e15;
 }
-.color4{
+
+.color4 {
   background-color: #3c1249;
 }
-.color5{
+
+.color5 {
   background-color: #4a0b47;
 }
-.color6{
+
+.color6 {
   background-color: #0f0d3d;
 }
-.color7{
+
+.color7 {
   background-color: #136a58;
 }
-.color8{
+
+.color8 {
   background-color: #9c2a00;
 }
-.color9{
+
+.color9 {
   background-color: #4b32d1;
 }
-.color10{
+
+.color10 {
   background-color: #b15aa4;
 }
-
-
 
 .col {
   float: left;
   left: 6em;
-  width: 18vw;
   padding-top: 30px;
+  width: 18vw;
 }
-form{
+
+form {
   background-color: #ececec;
   position: inherit;
-
-
-
-
 }
-form>div>label{
+
+form>div>label {
   background-color: #ececec;
-  position: fixed;
-  left:5%;
   border: none;
-
+  left: 5%;
+  position: fixed;
 }
 
 }
+
 header {
   background-color: white;
-  padding-bottom: 20px;
   border-bottom-style: solid;
   border-color: #d9d9d9;
   border-width: .1vw;
+  padding-bottom: 20px;
 }
 
 header>* {
@@ -97,7 +103,7 @@ header>h1 {
   width: 3vw;
 }
 
-header>form>div{
+header>form>div {
   background-color: #ececec;
   display: inline-block;
   width: 1vw;
@@ -112,53 +118,54 @@ i {
   width: 1vw;
 }
 
+.icon {
+  display: inline-block;
+}
+
+.icon>i {
+  font-size: 2em;
+}
+
+.iconcomment {
+  left: 10px;
+  position: relative;
+}
+
+.iconmore {
+  left: 50px;
+  position: relative;
+}
+
 .imagen {
-  align-items: center;
-  border-radius: 5%;
+  border-radius: 10%;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 14vw;
 }
-.imagen:hover{
-  width: 17vw;
-  border-radius: 10%
-}
-.icon{
-  display: inline-block;
 
+.imagen:hover {
+  border-radius: 10% width: 17vw;
 }
-.icon > i{
-  font-size: 2em;
-}
-.iconcomment{
-  position: relative;
-  left: 10px;
-}
-.iconmore{
-  position: relative;
-  left: 50px;
 
+input:focus {
+  background-color: #F0F8FF;
+  border: 3px solid #000;
+  margin-right: 10px;
 }
 
 select {
-  border: none;
   background-color: #ececec;
+  border: none;
   position: relative;
   right: 8px;
 }
-
 
 #search-input {
   background-color: #ececec;
   border-radius: 3%;
   border: none;
   position: relative;
-  left:  15px;
+  left: 15px;
   height: 3vh;
   width: 60vw;
-}
-input:focus {
-border:3px solid #000;
-background-color:#F0F8FF;
-margin-right:10px;
 }
