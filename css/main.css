@@ -1,26 +1,63 @@
-body {
-  box-sizing: border-box;
-}
 
 .bar {
   padding: 10px;
   color: #000000;
 }
-.button{
-   text-decoration:none;
-   padding: 10px;
-
-   font-size: 20px;
-   color: white;
-   background-color: #3d2011;
-   border-radius: 6px;
-   
+body {
+  box-sizing: border-box;
 }
+body>div{
+  margin-left: 25px;
+}
+.button{
+   color: white;
+   border: none;
+   border-radius: 6px;
+   font-family:  Helvetica Neue,Helvetica,Arial,sans-serif;
+   font-weight: bold;
+   font-size: 1em;
+   padding: 10px;
+   margin: 1px;
+
+}
+
+.color1{
+  background-color: #165a6c;
+}
+.color2{
+  background-color: #653e16;
+}
+.color3{
+  background-color: #292e15;
+}
+.color4{
+  background-color: #3c1249;
+}
+.color5{
+  background-color: #4a0b47;
+}
+.color6{
+  background-color: #0f0d3d;
+}
+.color7{
+  background-color: #136a58;
+}
+.color8{
+  background-color: #9c2a00;
+}
+.color9{
+  background-color: #4b32d1;
+}
+.color10{
+  background-color: #b15aa4;
+}
+
+
 
 .col {
   float: left;
-  left: 2em;
-  width: 19%;
+  left: 6em;
+  width: 18vw;
   padding-top: 30px;
 }
 form{
@@ -76,11 +113,14 @@ i {
 }
 
 .imagen {
-  width: 10vw;
+  align-items: center;
   border-radius: 5%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 14vw;
 }
 .imagen:hover{
-  width: 15vw;
+  width: 17vw;
   border-radius: 10%
 }
 .icon{
@@ -106,6 +146,7 @@ select {
   position: relative;
   right: 8px;
 }
+
 
 #search-input {
   background-color: #ececec;
