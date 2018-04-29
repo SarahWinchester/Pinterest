@@ -1,13 +1,51 @@
 body {
   box-sizing: border-box;
 }
+
+.bar {
+  padding: 10px;
+  color: #000000;
+}
+.button{
+   text-decoration:none;
+   padding: 10px;
+
+   font-size: 20px;
+   color: white;
+   background-color: #3d2011;
+   border-radius: 6px;
+   
+}
+
+.col {
+  float: left;
+  left: 2em;
+  width: 19%;
+  padding-top: 30px;
+}
+form{
+  background-color: #ececec;
+  position: inherit;
+
+
+
+
+}
+form>div>label{
+  background-color: #ececec;
+  position: fixed;
+  left:5%;
+  border: none;
+
+}
+
+}
 header {
   background-color: white;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
   border-bottom-style: solid;
   border-color: #d9d9d9;
   border-width: .1vw;
-
 }
 
 header>* {
@@ -16,46 +54,70 @@ header>* {
 }
 
 header>h1 {
-  width: 3%;
-  height: 3;
-  font-size: 50px;
-  border: 1px solid black;
+  color: #a31010;
+  font-size: 2em;
+  height: 3vh;
+  width: 3vw;
 }
 
-
-header>form {
-  width: 70%;
+header>form>div{
+  background-color: #ececec;
+  display: inline-block;
+  width: 1vw;
 }
 
 header>nav {
   width: 20%;
 }
 
-.imagen {
-  width: 15vw;
-  border-radius: 5%;
+i {
+  height: 1vh;
+  width: 1vw;
 }
 
-.col {
-  float: left;
-  left: 2em;
-  width: 19%;
+.imagen {
+  width: 10vw;
+  border-radius: 5%;
+}
+.imagen:hover{
+  width: 15vw;
+  border-radius: 10%
+}
+.icon{
+  display: inline-block;
+
+}
+.icon > i{
+  font-size: 2em;
+}
+.iconcomment{
+  position: relative;
+  left: 10px;
+}
+.iconmore{
+  position: relative;
+  left: 50px;
+
 }
 
 select {
   border: none;
   background-color: #ececec;
+  position: relative;
+  right: 8px;
 }
 
 #search-input {
   background-color: #ececec;
   border-radius: 3%;
   border: none;
-  height: 10vh;
-  width: 50vw;
+  position: relative;
+  left:  15px;
+  height: 3vh;
+  width: 60vw;
 }
-
-.bar {
-  padding: 10px;
-  color: #000000;
+input:focus {
+border:3px solid #000;
+background-color:#F0F8FF;
+margin-right:10px;
 }
